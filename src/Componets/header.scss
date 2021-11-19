@@ -1,0 +1,144 @@
+$bg-color:#06396D;
+$nav-color:red;
+// $btn-primarycolor:#4f3af4;
+$btn-primarycolor:#8042fe;
+$btn-color:linear-gradient( to right,  #4f3af4, #8042fe);
+$sbtn-color:linear-gradient( to left,  #4f3af4, #8042fe);
+
+$font-color: #ffff;
+$font-family:popins;
+
+.contact{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+    // background-color: $bg-color;
+//  background-color: yellow;
+ width: 100%;
+//  margin-left: 50px;
+}
+.contact h4{
+    margin-right: 30px;
+    color: $font-color;
+    letter-spacing: 1.5px;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: lighter;
+}
+.con-details{
+    display: flex;
+    // background-image: $sbtn-color;
+    width: 400px;
+
+}
+.con-icons{
+    display: flex;
+    margin-right: 15px;
+    
+
+}
+.con-icons i{
+    margin-right: 15px;
+    color: white;
+    font-size: 20px;
+}
+.con-icons i:hover{
+    cursor: pointer;
+   
+}
+.logo{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    width:14%;
+    height: 70px;
+    border-radius: 53px 17px 53px 17px;
+    margin-left: 5px;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+
+    // border-radius: 5px;
+    border: 2px solid $btn-primarycolor;
+  
+    // background-image: $btn-color;
+}
+.logo h3{
+    margin-top: 20px;
+    color: $font-color;
+}
+.nav-bar{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    background-color: $bg-color;
+}
+.nav-opts{
+    display: flex;
+    justify-content: space-around;
+    width:800px;
+    height: 70px;
+    margin-right: 20px;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type:none;
+    color: white;
+    cursor: pointer;
+    
+}
+.nav-ul{
+    // // display: flex;
+    // justify-content: space-between;
+    width: 800px;
+    background-color:$bg-color;
+ 
+}
+
+li{
+//   background-color: aqua;
+//   background-image:$btn-color;
+
+
+    margin-left: 10px;
+    width: 400px;
+    height: 40px;
+    padding-top: 10px;
+    border-radius: 5px;
+    letter-spacing: 2px;
+}
+// li:hover{
+//     background-image:$btn-color;
+// }
+li::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    // background: #000;
+    background-image: $btn-color;
+    transition: width .3s;
+}
+
+li:hover::after {
+    width: 100%;
+    //transition: width .3s;
+}
+.btn button{
+    background-image: $sbtn-color;
+    // border: 2px solid $btn-primarycolor;
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 200px;
+    color: $font-color;
+    border-radius: 3px;
+    margin-right: 20px;
+    font-family: popins;
+    letter-spacing: 1px;
+    font-weight: bold;
+    cursor: pointer;
+}
