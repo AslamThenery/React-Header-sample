@@ -9,9 +9,10 @@ function Header() {
         
                 <h4>+0789123567</h4>
              
-                <h4>info@emaildomain.com</h4>
+                <h4>info@emaildomain.com </h4>
                 </div>
                 <div className="con-icons">
+                
 
                 <i class="fab fa-facebook" style={{color:'white'}}></i>
                 <i class="fab fa-instagram"></i>
